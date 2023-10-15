@@ -8,7 +8,7 @@ API_HASH = input("\nEnter Your API HASH :\n > ")
 
 print("\n\nEnter the phone number associated with your telegram account when asked.\n\n")
 
-fallen = Client("Fallen", api_id=API_ID, api_hash=API_HASH, in_memory=True)
+AnonX = Client("AnonX", api_id=API_ID, api_hash=API_HASH, in_memory=True)
 
 
 async def main():
