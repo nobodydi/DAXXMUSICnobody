@@ -22,7 +22,7 @@ resize_text = (
 async def get_userinfo_img(
     bg_path: str,
     font_path: str,
-    user_id: Union[int, str],    
+    user_id: app[int, str],    
     profile_path: Optional[str] = None
 ):
     bg = Image.open(bg_path)
