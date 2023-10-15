@@ -3,7 +3,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from asyncio import sleep
 from AnonX import app as Hiroko
-from pyrogram import filters, Client, enums
+from pyrogram import filters, Client,
 from pyrogram.enums import ParseMode
 from pyrogram.types import *
 from typing import Union, Optional
