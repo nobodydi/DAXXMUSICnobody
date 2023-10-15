@@ -5,7 +5,7 @@ from AnonX import app
 from AnonX.utils.errors import capture_err
 
 
-@app.on_message(filters.command("webss" , "webshot" ,"ss"))
+@app.on_message(filters.command("ss"))
 @capture_err
 async def take_ss(_, message: Message):
     try:
