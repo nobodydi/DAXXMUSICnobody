@@ -55,7 +55,7 @@ async def showid(_, message: Message):
       
 
 #bin.py
-@bot_cmd(cmd="bin", text_only = True)
+@app.on_message(filters.command(["bin", "vbin"]))
 async def _(m):
     text = m.pattern_match.group(1).strip()
     if len(text) < 6:
